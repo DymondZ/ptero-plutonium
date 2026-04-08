@@ -34,4 +34,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/garycraft/${{ github.event.inputs.image }}:${{ github.event.inputs.branch }}
+            ghcr.io/DymondZ/${{ github.event.inputs.image }}:${{ github.event.inputs.branch }}
