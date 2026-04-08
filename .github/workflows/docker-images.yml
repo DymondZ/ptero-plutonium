@@ -40,7 +40,7 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/garycraft/${{ matrix.tag }}:latest
+            ghcr.io/DymondZ/${{ matrix.tag }}:latest
           #tags: |
           #  ghcr.io/garycraft/${{ matrix.tag }}:${{ steps.extract_branch.outputs.branch }}
 
